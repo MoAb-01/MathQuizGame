@@ -272,15 +272,12 @@ void StartQuiz()
 		if (choice =='N'|| choice == 'n')
 			break;
 		else
-			ResetQuiz();
+			ResetQuiz();	
 	}
-
 }
-
 
 int main()
 {
 	srand((unsigned)time(NULL));
 	StartQuiz();
-
 }
